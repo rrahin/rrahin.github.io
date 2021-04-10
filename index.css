@@ -1,0 +1,104 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-container{
+    background-color:darkgrey;
+    color: white;
+    text-align: center;
+    
+}
+
+.banner-col{
+    background-color: grey;
+}
+
+.navbar{
+    background-color: #102040; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.about{
+    background-color: #00BDBD;
+    
+}
+
+#abouthead{
+    font-weight: bolder;
+}
+
+.education{
+    background-color: #EEEEEE;
+}
+
+#edu{
+    color: #FB8E75;
+    font-weight: bolder;
+}
+
+.circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.portfolio{
+    background-color: deepskyblue;
+}
+
+.card-img-top{
+   width: 100%;
+    height: 15vw;
+    object-fit:contain;
+}
+
+.d-block{
+    width: 100%;
+    height: 40vw;
+    object-fit:cover;
+}
+
+.galery{
+    background-color: #EEEEEE;
+}
+
+#gal{
+    color: #FB8E75;
+    font-weight: bolder;
+}
+
+.contact{
+    background-color: #434D5D;
+}
+
+.bg{
+    background-color: #585F73;
+}
+
+::placeholder{
+    color: white;
+}
+
+#but:hover{
+    color: black;
+}
+
+.footer{
+    background-color: #2BB3DD;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.circle:hover{
+  background-color:#585F73;
+}
